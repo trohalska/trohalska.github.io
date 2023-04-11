@@ -552,10 +552,8 @@ footer {
   padding: 0 0 0 15px;
 } */
 
-/*--------------------------------------------------------* EX ED */
-#experience {
-  display: none;
-  /* .no-js #experience-timeline > div {
+/*--------------------------------------------------------* EXPERIENCE */
+.no-js #experience-timeline > div {
   background: #fff;
   padding: 10px;
   margin-bottom: 10px;
@@ -582,12 +580,8 @@ footer {
 .no-js #experience-timeline:before,
 .no-js #experience-timeline:after {
   content: none;
-} */
-
-
-
-
-/* #experience {
+}
+#experience {
   padding: 50px 15px;
   text-align: center;
   border-bottom: 1px solid #dcd9d9;
@@ -651,7 +645,7 @@ footer {
 .vtimeline-point {
   position: relative;
   display: block;
-  vertical-align: top;
+  /* vertical-align: top; */
   margin-bottom: 30px;
 }
 .vtimeline-icon {
@@ -679,7 +673,9 @@ footer {
   font-weight: 300;
   color: #374054;
 }
-#education {
+
+
+/* #education {
   padding: 50px 15px 20px 15px;
   border-bottom: 1px solid #dcd9d9;
   text-align: center;
@@ -721,7 +717,7 @@ footer {
   padding: 0 0 0 15px;
 } */
 
-/* @media only screen and (max-width: 750px) {
+@media only screen and (max-width: 750px) {
   #experience-timeline:before,
   #experience-timeline:after {
     left: 23px;
@@ -740,8 +736,8 @@ footer {
   .vtimeline-content {
     margin-left: 70px;
   }
-} */
 }
+
 /*--------------------------------------------------------* MEDIA */
 @media only screen and (max-width: 992px) {
   #lead {
